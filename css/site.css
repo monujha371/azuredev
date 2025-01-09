@@ -1,134 +1,200 @@
- html,
-        body {
-            height: 100%;
-            width: 100%;
-            padding: 0;
-            margin: 0;
-        }
-        @font-face{
-            font-family: "Segoe UI";
-            src: url('../fonts/segoeuil.ttf');
-        }
-        .main-container {
-            height: 100%;
-            width: 100%;
-            background-color: #1d539d;
-            color: white;
-            padding-top: 6%;
-            box-sizing: border-box;
-            overflow-y: auto;
-            overflow-x: hidden;
-            font-family: "Segoe UI";
-        }
-
-        .cloud-image {
-            width: 1200px;
-            height: 250px;
-            padding-bottom: 50px;
-            margin: auto;
-        }
-
-        .success-text {
-            padding-bottom: 20px;
-            font-size: 62px;
-            line-height: 73px;
-        }
-
-        .description {
-            font-size: 34px;
-            line-height: 40px;
-        }
-
-        .next-steps-container {
-            padding-top: 50px;
-        }
-
-        .next-steps-header {
-            font-size: 24px;
-            line-height: 28px;
-            padding-bottom: 25px;
-        }
-
-        .next-steps-body {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .step {
-            display: flex;
-            margin: 7px 0px;
-            font-size: 15px;
-            line-height: 21px;
-        }
-
-        .step-icon {
-            height: 20px;
-            width: 20px;
-            margin-right: 10px;
-        }
-		
-		.step-text a {
-            color: white;
-			text-decoration: none;
-        }
-		
-		.step-text a:hover {
-            color: white;
-			text-decoration:underline;
-        }
-
-        .content {
-            box-sizing: border-box;
-            min-width: 700px;
-            max-width: 830px;
-            position: relative;
-            margin: auto;
-        }
-
-        .tweet-container {
-            min-width: 30px;
-            min-height: 100px;
-            margin: 0 20px;
-            position: absolute;
-            left: -100px;
-            top: 110px;
-        }
-        .content-body{
-            min-width: 400px;
-        }
-
-        @media (max-width: 1024px) {
-            .main-container{
-                padding-top: 1%;
-            }
-            .cloud-image {
-                padding-bottom: 30px;
-            }
-            .next-steps-container {
-                padding-top: 30px;
-            }
-            .next-steps-header {
-                padding-bottom: 20px;
-            }
-            .success-text {
-                font-size: 50px;
-                line-height: 61px;
-                padding-bottom: 10px;
-            }
-            .description {
-                font-size: 26px;
-                line-height: 30px;
-            }
-
-            .step {
-                font-size: 12px;
-                line-height: 18px;
-            }
-            .tweet-container {
-                top: 80px;
-            }
-            .content{
-                max-width: 630px;
-                min-width: 630px;
-            }
-        }
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Segoe UI";
+    src: url('../fonts/segoeuil.ttf');
+}
+.main-container {
+    height: 100%;
+    width: 100%;
+    background-color: #1d539d;
+    color: white;
+    padding-top: 6%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: "Segoe UI";
+}
+.cloud-image {
+    width: 75rem;
+    height: 15.625rem;
+    padding-bottom: 3.125rem;
+    margin: auto;
+}
+.success-text {
+    padding-bottom: 1.25rem;
+    font-size: 3.875rem;
+    line-height: 4.5625rem;
+}
+.description {
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+}
+.next-steps-container {
+    padding-top: 3.125rem;
+}
+.next-steps-header {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    padding-bottom: 1.5625rem;
+}
+.next-steps-body {
+    display: flex;
+    flex-direction: column;
+}
+.step {
+    display: flex;
+    margin: 0.4375rem 0;
+    font-size: 0.9375rem;
+    line-height: 1.3125rem;
+}
+.step-icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 0.625rem;
+}
+.step-text a {
+    color: white;
+    text-decoration: none;
+}
+.step-text a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.content {
+    box-sizing: border-box;
+    min-width: 43.75rem;
+    max-width: 51.875rem;
+    position: relative;
+    margin: auto;
+}
+.tweet-container {
+    min-width: 1.875rem;
+    min-height: 6.25rem;
+    margin: 0 1.25rem;
+    position: absolute;
+    left: -6.25rem;
+    top: 6.875rem;
+}
+.content-body {
+    min-width: 25rem;
+}
+@media (max-width: 64rem) {
+    .main-container {
+        padding-top: 1%;
+    }
+    .cloud-image {
+        padding-bottom: 1.875rem;
+    }
+    .next-steps-container {
+        padding-top: 1.875rem;
+    }
+    .next-steps-header {
+        padding-bottom: 1.25rem;
+    }
+    .success-text {
+        font-size: 3.125rem;
+        line-height: 3.8125rem;
+        padding-bottom: 0.625rem;
+    }
+    .description {
+        font-size: 1.625rem;
+        line-height: 1.875rem;
+    }
+    .step {
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+    }
+    .tweet-container {
+        top: 5rem;
+    }
+    .content {
+        max-width: 39.375rem;
+        min-width: 39.375rem;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+@media (max-width: 48rem) {
+    .success-text {
+        font-size: 2.5rem;
+        line-height: 3.125rem;
+    }
+    .description {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+    .content {
+        max-width: 100%;
+        padding: 0 1.25rem;
+    }
+}
+.step:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.3125rem;
+    padding: 0.3125rem;
+    transition: background-color 0.3s ease;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-1.25rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.success-text {
+    animation: fadeIn 1s ease-in-out;
+}
+.main-container {
+    background: linear-gradient(135deg, #1d539d, #3c79e6);
+}
+.floating-button {
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    background-color: #3c79e6;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 3.125rem;
+    width: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.floating-button:hover {
+    background-color: #5a8ff7;
+    transform: scale(1.1);
+}
+.floating-button:hover::after {
+    content: "Go to Top";
+    position: absolute;
+    bottom: 3.75rem;
+    right: 0.625rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.3125rem 0.625rem;
+    border-radius: 0.3125rem;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    pointer-events: none;
+}
+.tweet-container {
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: white;
+    padding: 0.625rem;
+}
